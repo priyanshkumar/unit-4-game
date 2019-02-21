@@ -1,0 +1,61 @@
+body {
+  background: url(../images/bg-image.jpeg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cont {
+  background-color: white;
+}
+
+.score-to-match {
+  background-color: #eeeeee;
+}
+
+.row1 {
+  background-color: #a5d6a7;
+  width: 40%;
+}
+
+.row2 {
+  background-color: #bbdefb;
+}
+
+.row3 {
+  height: 8rem;
+  width: 40%;
+}
+
+.row3 .col2 {
+  background-color: #ffcc80;
+}
+
+#ruby,
+#diamond,
+#yellow,
+#green {
+  height: 6rem;
+  width: 6rem;
+}
+
+.row4 {
+  background-color: #9fa8da;
+}
+
+.row5 {
+  width: 40%;
+}
+
+.row5 .col1 {
+  background-color: #cfd8dc;
+}
+
+.row6 {
+  height: 8rem;
+  width: 40%;
+}
+
+.row6 .col1 {
+  background-color: #cfd8dc;
+}
