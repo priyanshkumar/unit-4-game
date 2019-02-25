@@ -4,7 +4,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 
-  font-size: 1.3rem;
+  font-family: "Oregano", cursive;
+  font-size: 1.5rem;
 }
 
 /* Main Container */
@@ -14,13 +15,14 @@ body {
 
 /* row1 */
 .row1 {
-  background-color: #333333;
+  background-color: #222222;
   width: 40%;
 }
 
 .heading {
-  font-size: 3rem;
-  color: #f3f3f3;
+  font-family: "Niconne", cursive;
+  font-size: 4rem;
+  color: #ffffff;
 }
 
 /* row2 */
@@ -48,6 +50,7 @@ body {
 
 #scoreToReach {
   font-size: 3.5rem;
+  font-family: "Bungee", cursive;
 }
 
 /* row 4 */
@@ -84,4 +87,5 @@ body {
 
 #userScore {
   font-size: 3.5rem;
+  font-family: "Bungee", cursive;
 }
