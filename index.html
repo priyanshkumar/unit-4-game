@@ -5,25 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+
+    <!-- Jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN -->
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+
+    <!-- Linking to JS -->
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+    <!-- Linking to CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <!-- Main Container -->
     <div class="cont container my-5 p-3">
+      <!-- row1 -->
       <div
         class="row row1 m-3 d-flex justify-content-center align-items-center p-4"
       >
-        <div class="col">
-          <h1 class="heading d-flex justify-content-center align-items-center">
+        <div class="col d-flex justify-content-center align-items-center">
+          <h1 class="heading ">
             Crystal Collector
           </h1>
         </div>
       </div>
+
+      <!-- row2 -->
       <div class="row row2 m-3 w-50 p-4">
         <div class="col">
           <p>
@@ -53,9 +68,11 @@
           </p>
         </div>
       </div>
+
+      <!-- row3 -->
       <div class="row row3 m-3">
         <div
-          class="col-sm-7 col-12 d-flex justify-content-center align-items-center mr-2 score-to-match"
+          class="col-sm-7 col-12 d-flex justify-content-center align-items-center mr-2 col1"
         >
           <h3 id="score-to-match"></h3>
         </div>
@@ -74,8 +91,10 @@
           </div>
         </div>
       </div>
+
+      <!-- row4 -->
       <div class="row m-3 p-4 row4 w-50 d-flex justify-content-center">
-        <div class="col-6 p-0 col-md-3 d-flex justify-content-center">
+        <div class="col-6 p-0 col-2 col-md-3 d-flex justify-content-center">
           <img id="ruby" src="./assets/images/ruby.jfif" alt="" />
         </div>
         <div class="col-6 p-0 col-md-3 d-flex justify-content-center">
@@ -88,13 +107,15 @@
           <img id="green" src="./assets/images/green.jfif" alt="" />
         </div>
       </div>
+
+      <!-- row5 -->
       <div class="row row5 ml-3">
-        <div
-          class="col-7 col1 p-0 d-flex align-items-center justify-content-center"
-        >
+        <div class="col-7 col1 p-0 d-flex align-items-center">
           <h5 class="m-0 p-2">your total score is:</h5>
         </div>
       </div>
+
+      <!-- row6 -->
       <div class="row row6 m-3">
         <div class="col-7 col1">
           <h3 id="your-score"></h3>

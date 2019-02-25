@@ -5,32 +5,36 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Main Container */
 .cont {
   background-color: white;
 }
 
-.score-to-match {
-  background-color: #eeeeee;
-}
-
+/* row1 */
 .row1 {
   background-color: #a5d6a7;
   width: 40%;
 }
 
+/* row2 */
 .row2 {
   background-color: #bbdefb;
 }
 
+/* row3 */
 .row3 {
   height: 8rem;
   width: 40%;
 }
 
+.row3 .col1 {
+  background-color: #eeeeee;
+}
 .row3 .col2 {
   background-color: #ffcc80;
 }
 
+/* row 4 */
 #ruby,
 #diamond,
 #yellow,
@@ -43,6 +47,7 @@ body {
   background-color: #9fa8da;
 }
 
+/* row5 */
 .row5 {
   width: 40%;
 }
@@ -51,6 +56,7 @@ body {
   background-color: #cfd8dc;
 }
 
+/* row6 */
 .row6 {
   height: 8rem;
   width: 40%;
