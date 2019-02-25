@@ -69,11 +69,13 @@ $(document).ready(function() {
   function toCheck() {
     if (userScore === randomNoToReach) {
       wins++;
+      alert("you matched the random score " + userScore);
       alert("you win!");
       reset();
       return (document.querySelector("#wins").innerHTML = wins);
     } else if (userScore > randomNoToReach) {
       loss++;
+      alert("You reached to " + userScore);
       alert("you loss!");
       reset();
       return (document.querySelector("#loss").innerHTML = loss);
