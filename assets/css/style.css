@@ -3,6 +3,8 @@ body {
   background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+
+  font-size: 1.3rem;
 }
 
 /* Main Container */
@@ -12,13 +14,23 @@ body {
 
 /* row1 */
 .row1 {
-  background-color: #a5d6a7;
+  background-color: #333333;
   width: 40%;
+}
+
+.heading {
+  font-size: 3rem;
+  color: #f3f3f3;
 }
 
 /* row2 */
 .row2 {
   background-color: #bbdefb;
+}
+
+.row2 p {
+  line-height: 1.5rem;
+  padding: 1.3rem;
 }
 
 /* row3 */
@@ -28,10 +40,14 @@ body {
 }
 
 .row3 .col1 {
-  background-color: #eeeeee;
+  background-color: #bdbd;
 }
 .row3 .col2 {
   background-color: #ffcc80;
+}
+
+#scoreToReach {
+  font-size: 3.5rem;
 }
 
 /* row 4 */
@@ -64,4 +80,8 @@ body {
 
 .row6 .col1 {
   background-color: #cfd8dc;
+}
+
+#userScore {
+  font-size: 3.5rem;
 }
