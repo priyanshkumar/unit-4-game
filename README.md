@@ -23,4 +23,4 @@
 
 ## Build with:
 
-JavaScript, Jquery, Html, Css, Bootstrap
+JavaScript, jQuery, HTML 5, CSS 3, Bootstrap
