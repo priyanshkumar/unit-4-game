@@ -56,6 +56,7 @@ $(document).ready(function() {
 
   //to display user score
   function displayUserScore() {
+    debugger;
     return (document.querySelector("#userScore").innerHTML = userScore);
   }
 
@@ -65,20 +66,25 @@ $(document).ready(function() {
     return (document.querySelector("#userScore").innerHTML = userScore);
   }
 
+  function showMessage(message) {
+    alert(message);
+  }
   //   to check whther game is won or loss
   function toCheck() {
     if (userScore === randomNoToReach) {
       wins++;
       displayUserScore();
-      alert("you matched the random score " + userScore);
-      alert("you win!");
+      showMessage("you matched the random score " + userScore);
+      showMessage("you win!");
+
       reset();
       return (document.querySelector("#wins").innerHTML = wins);
     } else if (userScore > randomNoToReach) {
       loss++;
       displayUserScore();
-      alert("You reached to " + userScore);
-      alert("you loss!");
+      showMessage("You reached to " + userScore);
+      showMessage("you loose!");
+
       reset();
       return (document.querySelector("#loss").innerHTML = loss);
     }
